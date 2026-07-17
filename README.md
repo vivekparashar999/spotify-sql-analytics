@@ -5,7 +5,7 @@ SQL analysis of a Spotify/YouTube music dataset (~20.6K tracks, 24 columns) usin
 I wrote 15 queries going from basic aggregation up to window functions and CTEs, and then tried to optimize the slowest one using `EXPLAIN ANALYZE` and indexing.
 
 **Dataset:** [Spotify and YouTube (Kaggle)](https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube)
-**Tools:** PostgreSQL 15
+**Tools:** PostgreSQL 15 — the analytical queries (window functions, CTEs, conditional aggregation) are standard SQL and portable to any modern engine
 
 ## Files
 
